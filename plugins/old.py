@@ -31,7 +31,7 @@ async def old(client, message):
         message_id=message.message_id,
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton('🦋name🦋', url='https://t.me/url')],
+                [InlineKeyboardButton('📺<b>STREAM ZONE<b>📺', url='https://t.me/stream_zone')],
             ]  
         )
     )
